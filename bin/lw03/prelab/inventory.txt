@@ -1,0 +1,12 @@
+ADD Laptop 10
+ADD Mouse 25
+ADD Keyboard 15
+SELL Laptop 4
+SELL Mouse 30
+ADD Mouse 10
+SELL Mouse 30
+SELL Monitor 1
+SELL Keyboard 15
+SELL Keyboard 1
+ADD Monitor 5
+SELL Monitor 2
