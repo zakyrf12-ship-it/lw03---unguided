@@ -7,9 +7,7 @@ import java.util.*;
 
 public class Main {
 
-    // Opens a txt file from the classpath (same folder as Main.java).
-    // Falls back to reading from the src folder on disk, so it works
-    // whether you press Run in VS Code or run it from the terminal.
+
     private static Scanner openFile(String name) {
         InputStream in = Main.class.getResourceAsStream(name);
         if (in != null) {

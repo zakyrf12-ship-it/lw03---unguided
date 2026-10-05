@@ -7,9 +7,6 @@ import java.util.*;
 
 public class Main {
 
-    // Opens enrollment.txt from the classpath (same folder as Main.java).
-    // Falls back to the src folder on disk so it also works if VS Code
-    // does not copy the txt file to the output folder.
     private static Scanner openFile(String name) {
         InputStream in = Main.class.getResourceAsStream(name);
         if (in != null) {
